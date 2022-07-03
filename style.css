@@ -16,6 +16,7 @@ h1 {
 
 section {
     display: flex;
+
 }
 
 .left-side {
@@ -47,4 +48,32 @@ section {
 #section-top {
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+
+.dream-big {
+    display: flex;
+    margin-top: 150px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-right {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 15%;
+
+}
+
+.dreram-left {
+    width: 50%;
+
+    margin-top: 5%;
+}
+
+.dream-left img {
+    width: 100%;
+    padding-left: 18%;
 }
